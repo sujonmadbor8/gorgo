@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+:root {
+    --orange: #fd6066;
+    --white: #ffffff;
+    --light_grey: #d3d3d3;
+}
+
+/* header start here  */
+.header {
+}
+header .wrapper {
+    /* border: 1px solid rgb(131, 184, 131); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 25px 0;
+}
+header .wrapper nav {
+    /* border: 1px solid orange; */
+    display: flex;
+    align-items: center;
+}
+.wrapper ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.wrapper ul li a {
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(61, 56, 56);
+}
+.btn_style button {
+    border: none;
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 3px;
+    padding: 7px 12px;
+}
+/* header end here  */
+
+/* megazine section start here  */
+.wrapper h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+main .wrapper {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+main .wrapper .desc {
+    width: 40%;
+    padding-right: 50px;
+}
+main .wrapper .desc img {
+    width: 25px;
+    color: var(--orange);
+    margin: 10px 0;
+}
+main .wrapper .person_img {
+    width: 45%;
+}
+main .wrapper .person_img img {
+    width: 100%;
+}
+/* megazine section end here  */
